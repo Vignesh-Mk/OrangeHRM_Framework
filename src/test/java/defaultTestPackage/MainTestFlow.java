@@ -31,7 +31,9 @@ public class MainTestFlow {
 	@AfterTest
 	public void EndTest()
 	{
+		//driver.close();
 		
+		driver.quit();
 	}
 	
 	private void SetupBrowserDrivers()

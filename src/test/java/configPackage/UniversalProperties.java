@@ -20,7 +20,7 @@ public class UniversalProperties {
 			FileInputStream input = new FileInputStream(cfgDir);
 			props.load(input);
 			
-			props.getProperty(propertyIndex);
+			value = props.getProperty(propertyIndex);
 			
 		}
 		catch(Exception e)
