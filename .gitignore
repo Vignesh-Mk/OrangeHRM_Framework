@@ -1,5 +1,6 @@
 target/
 test-output/
+TestReport.html
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
